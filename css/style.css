@@ -75,24 +75,36 @@ a {
     border: 2px solid red;
 }
 
+.logobig {
+    /* non riesco a ridimensionare, nemmeno se dai reset tolgo  max-width: 100%; */
+    width: 20%;
+}
+
+
 
 .cuore {
     width: 100%;
     he
 }
 
-header {
+#header {
     background-color: var(--header-color);
     height: var(--header-header);
 
     border: 2px solid yellow;
 }
 
+button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
 .central {
     width: 100%;
     height: calc(100% - var(--header-header));
 
-    border: 2px solid white;
+    border: 2px solid blue;
 }
 
 
@@ -100,9 +112,9 @@ header {
     background-color: var(--player-color);
     height: var(--player-height);
     width: 100%;
+
+    border: 2px solid green;
 }
-
-
 
 
 
