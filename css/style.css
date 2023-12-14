@@ -43,6 +43,27 @@ a {
 }
 
 
+/* griglia */
+.container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class*="col"] {
+    padding: 1rem;
+}
+
+
 /* *UTILS SE DOVESSERO SERVIRE */
 
 /* .clearfix::after {
@@ -75,8 +96,8 @@ a {
     border: 2px solid red;
 }
 
+/* non riesco a ridimensionare, nemmeno se dai reset tolgo  max-width: 100%; */
 .logobig {
-    /* non riesco a ridimensionare, nemmeno se dai reset tolgo  max-width: 100%; */
     width: 20%;
 }
 
@@ -84,7 +105,6 @@ a {
 
 .cuore {
     width: 100%;
-    he
 }
 
 #header {
@@ -94,6 +114,7 @@ a {
     border: 2px solid yellow;
 }
 
+/* non riesco a spostare il bottone */
 button {
     background-color: black;
     color: white;
