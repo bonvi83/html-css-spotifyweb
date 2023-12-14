@@ -3,6 +3,8 @@
     --sidebar-width: 150px;
 
     --header-color: rgb(8, 11, 18);
+    --header-header: 60px;
+
     --body-color: rgb(20, 25, 34);
     --player-color:  rgb(40, 40, 40);
     --text-color:  rgb(255, 255, 255);
@@ -40,26 +42,6 @@ a {
     color: white;
 }
 
-/* griglia */
-/* .container {
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.row {
-    margin-left: -1rem;
-    margin-right: -1rem;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-[class*="col"] {
-    padding: 1rem;
-} */
-
 
 /* *UTILS SE DOVESSERO SERVIRE */
 
@@ -70,6 +52,8 @@ a {
 } */
 
 
+
+/* inizio css vero e proprio */
 
 #main {
     height: calc(100vh - var(--player-height));
@@ -93,16 +77,20 @@ a {
 
 
 .cuore {
-
+    width: 100%;
+    he
 }
 
 header {
     background-color: var(--header-color);
+    height: var(--header-header);
 
     border: 2px solid yellow;
 }
 
 .central {
+    width: 100%;
+    height: calc(100% - var(--header-header));
 
     border: 2px solid white;
 }
