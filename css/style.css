@@ -107,11 +107,16 @@ a {
     width: 100%;
 }
 
-#header {
+header {
     background-color: var(--header-color);
     height: var(--header-header);
 
     border: 2px solid yellow;
+}
+
+#upgrade {
+    justify-content: center;
+    align-items: center;
 }
 
 /* non riesco a spostare il bottone */
