@@ -82,10 +82,6 @@ a {
     /* questa non funziona
     width: calc(100% - var(--sidebar-width)); */
     display: flex;
-
-
-    border: 2px solid green;
-
 }
 
 .sidebar {
@@ -110,12 +106,8 @@ a {
 header {
     background-color: var(--header-color);
     height: var(--header-header);
-
-    border: 2px solid yellow;
-}
-
-#upgrade {
-    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -124,13 +116,13 @@ button {
     background-color: black;
     color: white;
     border: 1px solid white;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 .central {
     width: 100%;
     height: calc(100% - var(--header-header));
-
-    border: 2px solid blue;
 }
 
 
@@ -139,8 +131,6 @@ button {
     background-color: var(--player-color);
     height: var(--player-height);
     width: 100%;
-
-    border: 2px solid green;
 }
 
 
