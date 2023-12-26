@@ -88,10 +88,25 @@ a {
     flex-direction: column;
 }
 
+.sidebar :last-child {
+    margin-top: auto;
+}
+
 #logobig {
+    display: block;
     width: 80%;
     padding: 10px;
 }
+
+#logosmall {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    padding: 3px;
+}
+
 
 
 /* PARTE DELL'HEADER */
@@ -100,7 +115,6 @@ a {
     width: 100%;
     overflow: auto;
 }
-
 
 header {
     background-color: var(--header-color);
@@ -176,8 +190,12 @@ button {
 
 /* MEDIA QUERY PHONE*/
 
-/* @media screen and (max-width: 480px) {
-    .div {
-        width: 100%;
+@media screen and (max-width: 480px) {
+    #logobig {
+        display: none;
     }
-} */
+
+    #logosmall {
+        display: block;
+    }
+}
