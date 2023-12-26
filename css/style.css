@@ -12,6 +12,7 @@
     --player-height: 80px;
 }
 
+
 /* funzioni reset */
 * {
     margin: 0;
@@ -50,6 +51,7 @@ a {
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+    /* tutto il contenuto deve stare dentro questo contenitore */
 }
 
 .row {
@@ -126,6 +128,11 @@ button {
     height: calc(100% - var(--header-header));
 }
 
+.sottonav {
+    text-align: center;
+}
+
+
 
 
 #player {
@@ -136,21 +143,18 @@ button {
 
 
 
-/* !OVVIAMENTE VANNO CONTESTUALIZZATE CASO PER CASO */
-
 /* MEDIA QUERY TABLET */
 
-/* @media screen and (max-width: 768px) {
-    .div {
-        width: 100%;
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 90px;
         flex-wrap: wrap;
-        color: green;
     }
 
     .div2 {
         flex-wrap: wrap;
     }
-} */
+}
 
 
 
