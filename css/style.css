@@ -123,7 +123,7 @@ header {
     justify-content: flex-end;
     align-items: center;
 
-/* non funziona, anche se prima sono riuscito a fissare questa barra in qualche maniera */
+/* non funziona, anche se prima sono riuscito a fissare questa barra (in qualche maniera) */
     position: sticky;
 }
 
@@ -173,6 +173,7 @@ button {
 
 
 
+
 /* MEDIA QUERY TABLET */
 
 @media screen and (max-width: 768px) {
@@ -181,8 +182,12 @@ button {
         flex-wrap: wrap;
     }
 
-    .div2 {
-        flex-wrap: wrap;
+    #logobig {
+        display: none;
+    }
+
+    #logosmall {
+        display: block;
     }
 }
 
@@ -191,11 +196,11 @@ button {
 /* MEDIA QUERY PHONE*/
 
 @media screen and (max-width: 480px) {
-    #logobig {
-        display: none;
+    .sidebar {
+        width: 40px;
     }
 
-    #logosmall {
-        display: block;
+    .noview {
+        display: none;
     }
 }
